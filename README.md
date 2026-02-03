@@ -2,10 +2,7 @@
 
 **AutoPython** is a minimalist and modern auto-clicking utility developed in Python. It was designed to replace clunky terminal scripts with a professional Graphical User Interface (GUI), offering seamless control and a frustration-free experience.
 
-
-
-[Image of a modern desktop application GUI layout]
-
+![AutoPython Interface](./app.png)
 
 ## ✨ Key Features
 - **Modern Interface:** Powered by `CustomTkinter` for a native Dark Mode aesthetic.
@@ -20,4 +17,4 @@
 1. Ensure you have [Python 3.x](https://www.python.org/) installed.
 2. Clone this repository:
    ```bash
-   git clone [https://github.com/your-username/autopython.git](https://github.com/your-username/autopython.git)
+   git clone [https://github.com/vit-ops/autoClicker-using-Python.git](https://github.com/vit-ops/autoClicker-using-Python.git)
