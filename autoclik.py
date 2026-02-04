@@ -103,7 +103,6 @@ class AutoPython(ctk.CTk):
         script_path = os.path.abspath(sys.argv[0])
         exe_name = "AutoPython"
         try:
-            # CHAMADA CORRIGIDA: Usa o sys.executable para chamar o PyInstaller como módulo
             subprocess.run([
                 sys.executable, "-m", "PyInstaller",
                 "--noconsole",
@@ -125,4 +124,5 @@ class AutoPython(ctk.CTk):
 
 if __name__ == "__main__":
     app = AutoPython()
+
     app.mainloop()
